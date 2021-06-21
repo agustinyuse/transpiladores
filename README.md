@@ -42,7 +42,6 @@ npm run build
 
 luego para correr el proyecto
 
-Luego ejecutar
 ```bash
 npm run start
 ```
