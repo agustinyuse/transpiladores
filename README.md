@@ -2,11 +2,8 @@
 Desafío de coderhouse: Transpiladores
 
 ## babel
-Para transpilar el "server.es6.js" a server (js5) lo que hice fue agregar en el package.json esta linea de código:
-
-```bash
-"ServerES6toJS5": "./node_modules/.bin/babel ./server.es6.js -o ./server.js -w",   
-```
+Para transpilar el "server.es6.js" a server (js5) lo que hice fue agregar en el package.json esta linea de código en "scripts":
+"ServerES6toJS5": "./node_modules/.bin/babel ./server.es6.js -o ./server.js -w", 
 
 Luego ejecutar
 
